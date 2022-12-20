@@ -1,10 +1,16 @@
 <script setup>
-import Begin from './components/Begin.vue'
+  import Links from './components/Links.vue'
+  import Begin from './components/Begin.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Logo Super Impactante" class="logo" src="./assets/dino.png" width="256" height="256" />
+    <div>
+      <router-link to="/">
+        <img alt="Logo Super Impactante" class="logo" src="./assets/dino.png" width="256" height="256" />
+      </router-link>
+      <Links />
+    </div>    
 
     <div class="wrapper">
       <Begin msg="Será que esse projeto será finalizado?" />
@@ -12,6 +18,7 @@ import Begin from './components/Begin.vue'
   </header>
 
   <main>
+    <router-view></router-view>
   </main>
 </template>
 
@@ -40,6 +47,10 @@ header {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+  }
+
+  main{
+    margin: 10px;
   }
 }
 </style>
