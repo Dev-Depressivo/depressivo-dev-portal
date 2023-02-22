@@ -16,10 +16,10 @@
                     path: "/how-improve-your-english"
                 },
                 {
-                    title: "Sua empresa passou por layoff?",
-                    description: "Faça seu agradecimento no linkedin",
-                    complement: "#gratidao #foguetenaodaremaisestaciona",
-                    path: "/thanks-for-being-fired"
+                    path: "/chat-gwt",
+                    title: "ChatGWT (Chat Generative Without-trained Transformer)",
+                    description: "Responda suas dúvidas (Ou não)",
+                    complement: "0_0"
                 }
             ]
         }

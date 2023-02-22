@@ -270,7 +270,12 @@
   dependencies:
     "@vue/devtools-api" "^6.0.0"
 
-"vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.45", "vue@3.2.45":
+"vue-writer@^1.2.0":
+  "integrity" "sha512-EtunS6F12cyhXkKgIKDQxr6QEJpSmj4rUSqE149XZN5vbPQuX7PIbWovA1oPvGYUxrlq5HHobdZAzOzSeNAG7g=="
+  "resolved" "https://registry.npmjs.org/vue-writer/-/vue-writer-1.2.0.tgz"
+  "version" "1.2.0"
+
+"vue@^3.0.5", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.45", "vue@3.2.45":
   "integrity" "sha512-9Nx/Mg2b2xWlXykmCwiTUCWHbWIj53bnkizBxKai1g61f2Xit700A1ljowpTIM11e3uipOeiPcSqnmBg6gyiaA=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.45.tgz"
   "version" "3.2.45"
